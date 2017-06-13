@@ -3,9 +3,9 @@ html, body
 
 h1
   color: white
-  font-family: "Oswald"
+  font-family: "Droid Sans Mono"
 
 h2
   color: white
-  font-family: "Prompt"
+  font-family: "Nova Mono"
   
