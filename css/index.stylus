@@ -8,4 +8,37 @@ h1
 h2
   color: white
   font-family: "Nova Mono", monospace
+
+.calcOutput
+  background-color: white
+  width: 250px
+  height: 75px
+  border-top-left-radius: 2em
+  border-top-right-radius: 2em
+  margin-left: auto
+  margin-right: auto
+  margin-top: 40px
+  padding-top: 20px
+
+#calculator
+  background-color: grey
+  width: 250px
+  padding-top: 20px
+  padding-bottom: 30px
+  border-bottom-left-radius: 2em
+  border-bottom-right-radius: 2em
+  margin-right: auto
+  margin-left: auto
+
+#steps
+  padding-left: 50px
+  font-size: 2em
+
+a
+  margin: 5px
+  width: 2.6vw
+  height: 2.6vw
+
+.bigButton
+  width: 84px
   
