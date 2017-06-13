@@ -1,16 +1,20 @@
 html, body
-  background-color: black
-
+  background-image: url('http://wallpapercave.com/wp/9NtK8OP.jpg')
+  background-size: cover
+  padding-top: 5%
 h1
-  color: white
-  font-family: "Droid Sans Mono", monospace
+  color: black
+  font-family: "Orbitron"
+  font-size: 4em
+  padding-bottom: 1%
 
 h2
   color: white
-  font-family: "Nova Mono", monospace
+  font-family: "Orbitron"
 
 .calcOutput
   background-color: white
+  font-family: "Orbitron"
   width: 250px
   height: 75px
   border-top-left-radius: 2em
@@ -22,6 +26,7 @@ h2
 
 #calculator
   background-color: grey
+  font-family: "Orbitron"
   width: 250px
   padding-top: 20px
   padding-bottom: 30px
@@ -35,7 +40,7 @@ h2
   font-size: 2em
 
 a
-  margin: 5px
+  margin: .3em
   width: 2.6vw
   height: 2.6vw
 
