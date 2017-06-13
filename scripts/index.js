@@ -18,7 +18,7 @@ $(document).ready(function () {
     else if (inputs.length === 1 && operators1.includes(input) === false){
       inputs.push(input);
     }
-    else if (operators1.includes(inputs[inputs.length-1] === false)){
+    else if (operators1.includes(inputs[inputs.length-1]) === false){
       inputs.push(input);
     }
     else if (nums.includes(Number(input))){
@@ -28,7 +28,7 @@ $(document).ready(function () {
   }
 
   function update() {
-    totalString = input.join("");
+    totalString = inputs.join("");
     $("#steps").html(totalString);
   }
 
@@ -38,16 +38,16 @@ $(document).ready(function () {
   }
 
   $("a").on("click", function () {
-    if (this.id == "deleteAll") {
+    if (this.id === "deleteAll") {
       inputs = [""];
       update();
-    } else if (this.id == "backOne") {
+    } else if (this.id === "backOne") {
       inputs.pop();
       update();
-    } else if (this.id == "total") {
+    } else if (this.id === "total") {
       getTotal();
     } else {
-      if (inputs[inputs.length - 1].indexOf("+", "-", "*", "/", "-1") === -1) {
+      if (inputs[inputs.length - 1].indexOf("+", "-", "*", "/") === -1) {
         getValue(this.id);
       } else {
         getValue(this.id);
