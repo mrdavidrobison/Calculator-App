@@ -3,9 +3,9 @@ html, body
 
 h1
   color: white
-  font-family: "Droid Sans Mono"
+  font-family: "Droid Sans Mono", monospace
 
 h2
   color: white
-  font-family: "Nova Mono"
+  font-family: "Nova Mono", monospace
   
