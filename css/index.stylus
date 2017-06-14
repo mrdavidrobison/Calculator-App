@@ -1,49 +1,45 @@
 html, body
   background-image: url('http://wallpapercave.com/wp/9NtK8OP.jpg')
-  background-size: cover
-  padding-top: 5%
+
 h1
-  color: black
-  font-family: "Orbitron"
-  font-size: 4em
-  padding-bottom: 1%
+  color: white
+  font-family: "Droid Sans Mono", monospace
+  text-shadow: .1em .1em black
 
 h2
   color: white
   font-family: "Orbitron"
 
 .calcOutput
-  background-color: white
-  font-family: "Orbitron"
-  width: 250px
+  background-color:#c3c2ab
+  width: 49em
   height: 75px
-  border-top-left-radius: 2em
-  border-top-right-radius: 2em
-  margin-left: auto
-  margin-right: auto
-  margin-top: 40px
-  padding-top: 20px
+  margin: auto
+  margin-top: 10px
+  border-radius: 1em
+  box-shadow: 7px 10px 100px 1px rgba(0, 0, 0, 0.3), inset 1px 1px 1px .5px #89847e;
 
 #calculator
-  background-color: grey
-  font-family: "Orbitron"
-  width: 250px
-  padding-top: 20px
+  background-color: #dfd8d0
+  width: 50em
   padding-bottom: 30px
-  border-bottom-left-radius: 2em
-  border-bottom-right-radius: 2em
+  border-radius: 2em
   margin-right: auto
   margin-left: auto
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
 
 #steps
-  padding-left: 50px
   font-size: 2em
 
 a
   margin: .3em
   width: 2.6vw
   height: 2.6vw
+  box-shadow: 7px 10px 100px 1px rgba(0, 0, 0, 0.3), inset 1px 1px 1px .5px #89847e;
+
+.btn-danger
+ margin: auto
+ padding: auto
 
 .bigButton
   width: 84px
-  
