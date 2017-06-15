@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // stores input from user
-  var inputs = [""];
+  var inputs = ["0"];
   // stores current input
   var totalString;
   // operators array without .
@@ -48,7 +48,7 @@ $(document).ready(function () {
     } else if (this.id === "total") {
       getTotal();
     } else if (this.id === "0" && inputs[0] === "0") {
-      inputs.shift("0"); 
+      inputs = ["0"]; 
       update();
     } else {
       if (inputs[inputs.length - 1].indexOf("+", "-", "*", "/", ".") === -1) {
