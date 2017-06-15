@@ -16,42 +16,35 @@ body
   br
   br
   .container.text-center
-    h1 Calculator App
-  .calcOutput.well-sm
-    #steps 0
-  #calculator.text-center.well
-    a#deleteAll.btn.btn-danger AC
-    a#backOne.btn.btn-danger CE
-    a.btn.btn-primary(id='/') /
-    a.btn.btn-primary(id='*') *
     br
     br
-    #calculator.text-center
-      .calcOutput
+    #calculator.well
+      h4 Calculator App
+      .calcOutput.well
         #steps 0
-      br
-      a#deleteAll.btn.btn-danger AC
-      a#backOne.btn.btn-danger CE
-      a.btn.btn-primary(id='/') /
-      a.btn.btn-primary(id='*') *
-      br
-      a#7.btn.btn-primary 7
-      a#8.btn.btn-primary 8
-      a#9.btn.btn-primary 9
-      a#-.btn.btn-primary -
-      br
-      a#4.btn.btn-primary 4
-      a#5.btn.btn-primary 5
-      a#6.btn.btn-primary 6
-      a.btn.btn-primary(id='+') +
-      br
-      a#1.btn.btn-primary 1
-      a#2.btn.btn-primary 2
-      a#3.btn.btn-primary 3
-      a.btn.btn-primary(id='.') .
-      br
-      a#0.btn.btn-primary.bigButton 0
-      a#total.btn.btn-primary.bigButton =
+      .buttonLayout.well
+        a#deleteAll.btn.btn-danger AC
+        a#backOne.btn.btn-danger CE
+        a.btn.btn-primary(id='/') /
+        a.btn.btn-primary(id='*') *
+        br
+        a#7.btn.btn-primary 7
+        a#8.btn.btn-primary 8
+        a#9.btn.btn-primary 9
+        a#-.btn.btn-primary -
+        br
+        a#4.btn.btn-primary 4
+        a#5.btn.btn-primary 5
+        a#6.btn.btn-primary 6
+        a.btn.btn-primary(id='+') +
+        br
+        a#1.btn.btn-primary 1
+        a#2.btn.btn-primary 2
+        a#3.btn.btn-primary 3
+        a.btn.btn-primary(id='.') .
+        br
+        a#0.btn.btn-primary.bigButton 0
+        a#total.btn.btn-primary.bigButton =
 
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js')
