@@ -1,53 +1,53 @@
 html, body
-  background-color: #2F323A
-  font-family: "Orbitron"
+  background-color #2F323A
+  font-family "Orbitron"
 
 h4
-  color: black
-  font-weight: bold
-  padding-top: 1px
-  padding-bottom: 1px
-  text-shadow: 1.5px 1.5px grey
-  letter-spacing: 4px
+  color black
+  font-weight bold
+  padding-top 1px
+  padding-bottom 1px
+  text-shadow 1.5px 1.5px grey
+  letter-spacing 4px
 
 .calcOutput
-  background-color:#c3c2ab
-  width: auto
-  height: 2.7em
-  margin: auto
-  margin-top: 1em
-  margin-bottom: 1em
-  border: 2px solid #908b85
-  border-radius: .5em
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3), inset 1px 1px 1px .5px #89847e
+  background-color#c3c2ab
+  width auto
+  height 2.7em
+  margin auto
+  margin-top 1em
+  margin-bottom 1em
+  border 2px solid #908b85
+  border-radius .5em
+  box-shadow 1px 1px 1px 1px rgba(0, 0, 0, .3), inset 1px 1px 1px .5px #89847e
   
 #calculator
-  background-color: #65666B
-  font-size: 2em
-  width: 10em
-  padding-bottom: 30px
-  border: 2px solid #908b85
-  border-radius: 1em
-  margin-right: auto
-  margin-left: auto
-  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset 1px -6px 12px 0.1px #89847e
+  background-color #65666B
+  font-size 2em
+  width 10em
+  padding-bottom 30px
+  border 2px solid #908b85
+  border-radius 1em
+  margin-right auto
+  margin-left auto
+  box-shadow 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset 1px -6px 12px 0.1px #89847e
 
 .buttonLayout
-  background-color: #65666B
-  border: 2px solid #908b85
-  border-radius: .5em
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e
+  background-color #65666B
+  border 2px solid #908b85
+  border-radius .5em
+  box-shadow 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e
 
 #steps
-  padding: auto
-  margin-left: 10px
+  padding auto
+  margin-left 10px
 
 .btn
-  width: 3.1em
-  padding: auto
-  margin: .2em
-  border: 2px solid #908b85
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e
+  width 3.1em
+  padding auto
+  margin .2em
+  border 2px solid #908b85
+  box-shadow 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e
 
 .bigButton
-  width: 6.6em
+  width 6.6em
