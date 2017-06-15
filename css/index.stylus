@@ -17,25 +17,26 @@ h4
   margin: auto
   margin-top: 1em
   margin-bottom: 1em
-  border: 2px solid #908b85;
+  border: 2px solid #908b85
   border-radius: .5em
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3), inset 1px 1px 1px .5px #89847e;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3), inset 1px 1px 1px .5px #89847e
   
 #calculator
   background-color: #65666B
   font-size: 2em
   width: 10em
   padding-bottom: 30px
-  border: 2px solid #908b85;
-  border-radius: 2em
+  border: 2px solid #908b85
+  border-radius: 1em
   margin-right: auto
   margin-left: auto
-  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset 1px -6px 12px 0.1px #89847e
 
 .buttonLayout
   background-color: #65666B
-  border: 2px solid #908b85;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e;
+  border: 2px solid #908b85
+  border-radius: .5em
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e
 
 #steps
   padding: auto
@@ -45,8 +46,8 @@ h4
   width: 3.1em
   padding: auto
   margin: .2em
-  border: 2px solid #908b85;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e;
+  border: 2px solid #908b85
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.68), inset 1px 1px 1px 1px #89847e
 
 .bigButton
   width: 6.6em

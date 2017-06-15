@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // stores input from user
-  var inputs = ["0"];
+  var inputs = [""];
   // stores current input
   var totalString;
   // operators array without .
@@ -40,15 +40,16 @@ $(document).ready(function () {
 
   $("a").on("click", function () {
     if (this.id === "deleteAll") {
-      inputs = ["0"];
+      $("#steps").on("click") === "0";
       update();
     } else if (this.id === "backOne") {
       inputs.pop();
       update();
     } else if (this.id === "total") {
       getTotal();
+      inputs = [""]
     } else if (this.id === "0" && inputs[0] === "0") {
-      inputs = ["0"]; 
+      inputs = [this.id]; 
       update();
     } else {
       if (inputs[inputs.length - 1].indexOf("+", "-", "*", "/", ".") === -1) {
